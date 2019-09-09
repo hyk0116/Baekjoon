@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Test_1 {
 
 	public static void main(String[] args) {
-		// 백준 2885
+		// Baekjoon 2588 앞과정에서 잘못표기
 		Scanner sc= new Scanner(System.in);
 		
 		int n1=sc.nextInt();
