@@ -6,8 +6,10 @@ public class Test_1 {
 		// TODO Auto-generated method stub
 		Scanner sc= new Scanner(System.in);
 		
-		int a=sc.nextInt();
-		System.out.println(a);
+		int n1=sc.nextInt();
+		int n2=sc.nextInt();
+		//int mul1=
+		System.out.println(n1*((n2%100)%10));
 	}
 
 }
