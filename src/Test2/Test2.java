@@ -1,5 +1,6 @@
 package Test2;
 import java.util.Scanner;
+
 public class Test2 {
 
 	public static void main(String[] args) {
@@ -9,9 +10,20 @@ public class Test2 {
 		String[] arr;
 		int count=0;
 		
-		StringBuffer strbf=new StringBuffer(s);//문자열 변경위해 사용
+		StringBuffer strbf=new StringBuffer(s);
 		
+		for(int i=1; i<s.length(); i++) {
+			if(s.charAt(i)!=s.charAt(i-1)) {
+				strbf.insert(count, " ");
+				count++;
+			}
+		}
+
 		System.out.println(s);
+
+
+		
+		
 	}
 
 }
