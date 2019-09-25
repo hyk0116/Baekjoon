@@ -11,16 +11,19 @@ public class Test3 {
 		
 		int a=sc.nextInt();
 		int [] arr=new int [a];
+		boolean b=true;//소수여부 판단
 		int count =0;
 		
 		for(int i=0; i<arr.length; i++) {
 			arr[i]=sc.nextInt();
-
+			
+			if(arr[i]<=1)
+				b=false;
 
 		}
 	
 		
-		
+			
 	}
 
 }
