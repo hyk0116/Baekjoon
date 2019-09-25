@@ -19,7 +19,12 @@ public class Test3 {
 			
 			if(arr[i]<=1)
 				b=false;
-
+			else {
+				for(int j=2;j<arr[i]/2; j++)
+					if(arr[i]/j==0)
+					b=false;
+			}
+			
 		}
 	
 		
