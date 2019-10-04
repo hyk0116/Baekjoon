@@ -12,5 +12,17 @@ public class Test4 {
 			}
 		}
 	}
+	
+	//셀프넘버가 아닌수 구하기
+	private static int dn(int n) {
+		int dn=n;
+		
+		while(n>0) {
+			dn+=n%10;
+			n=n/10;
+		}
+		
+		return dn;
+	}
 
 }
